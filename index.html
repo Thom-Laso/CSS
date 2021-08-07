@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Website</title>
+</head>
+<body>
+<h1 class="title">Thomlin Website</h1>
+<p>This is just a testing website for my CSS course</p>
+<h2 class="about_title" id="about-me">About Me</h2>
+    <div class="profile_image_wrapper">
+        <img src="Profile.jpg" id="profile-image">
+    </div>
+<p id="about_me">First of all, Thank You for checking my website.
+    My name is Thomlin Laso, I am from Shillong Meghalaya
+    I am a web developer, I have been involved in coding for the 5 years.
+    Some languages that I have experienced are c, html, .Net, Asp.Net, Ado.Net, PostgreSql database and
+    now I'm still learning CSS.
+<h2 id="achievement-title">Some of My Achievements are:</h2>
+    <div class="certificate-container">
+        <div class="certificate-wrapper">
+            <ul>
+                <li id="govtAward-title">Governor Award Scout</li>
+                    <img src="rajyapuraskar.jpg" id="rajyapuraskar">
+                <li id="certCS-title">Certificate of Introduction to Cyber Security</li>
+                    <img src="certificate CS.jpg" id="certCS" >
+                <li id="certIOT-title">Certificate of Introduction to Internet of Things</li>
+                    <img src="certificate IOT.jpg"id="certIOT">
+                <li id="publicspeaking-title">Public Speaking</li>
+                    <img src="PublicSpeaking.jpg" id="publicspeaking">
+                <li id="firstaid-title">Search and Rescue/First Aid</li>
+                    <img src="Search_Rescue_FirstAid.jpg" id="firstaid">
+            </ul>
+        </div>
+    </div>
+</p>   
+<div id="testing1"></div>
+<div id="testing2"></div>
+<div id="testing3"></div>
+<div id="testing4"></div>
+
+<div class="container">
+    <div class="container-item">T</div>
+    <div class="container-item">H</div>
+    <div class="container-item">O</div>
+    <div class="container-item">M</div>
+    <div class="container-item">L</div>
+    <div class="container-item">I</div>
+    <div class="container-item">N</div>
+    <div class="container-item">L</div>
+    <div class="container-item">A</div>
+    <div class="container-item">S</div>
+    <div class="container-item">O</div>
+
+</div>
+<div class="container2">
+    <div class="container-item2" style="order: 4; flex-grow: 1; flex-shrink: 1; flex: basis 100px;align-self: center;">A</div><!--flex-grow is going to take equal amount of spzce-->
+    <div class="container-item2" style="order: 3; flex-grow: 1; flex-shrink: 1; flex: basis 100px; align-self: flex-end">B</div><!--align-self: is the alignment of items-->
+    <div class="container-item2" style="order: 5; flex-grow: 1; flex-shrink: 1; flex: basis 100px;align-self: flex-start;">C</div>
+    <div class="container-item2" style="order: 1; flex-grow: 1; flex-shrink: 1; flex: basis 100px; align-self: flex-start;">D</div>
+    <div class="container-item2" style="order: 2; flex: 1 1 100px; align-self: center;">E</div><!-- flex: 1(grow) 1(shrink) 100px(basis); shorthand/shortcut-->
+</div>
+
+<div class="grid-container">
+    <div class="grid-item" style="background:rgb(245, 108, 108); grid-column: 1 / 3;grid-row: 1 / 3;">1</div><!--grid-column: allows the blocks to start at one and end at three-->
+    <div class="grid-item" style="background: rgb(250, 235, 103);">2</div>
+    <div class="grid-item" style="background: rgb(133, 253, 109);">3</div>
+    <div class="grid-item" style="background: rgb(137, 225, 247);">4</div>
+    <div class="grid-item" style="background: rgb(100, 98, 209);">5</div>
+    <div class="grid-item" style="background: rgb(250, 111, 204);">6</div>
+</div>
+<h2 id="contact_title">Contact Me</h2>
+    <ul>
+        <a href="https://mail.google.com" id="gmail"><li>thomlinpjlaso@gmail.com</li></a>
+        <li id="ph_no">8132851005</li>
+    </ul>
+<h2>Any Suggestions</h2>
+<form>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email_id">Email Address:</label><br>
+    <input type="text" id="email_id" name="email_id"><br>
+    <label for="mssg">Your Message:</label><br>
+    <input type="text" id="mssg" name="mssg"><br>
+    <input type="submit" value="Submit"class="submit-button"><br>
+</form>
+</body>
+</html>
